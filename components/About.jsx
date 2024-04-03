@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div className='w-full md:h-screen p-2 items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#004aad]'>
@@ -24,7 +24,7 @@ const About = () => {
             Beyond my technical skills, I am a strong believer in teamwork,
             leadership, and community engagement. On campus, I am a member of
             Theta Tau Professional Engineering Fraternity, where I served as the
-            Vice President from May 2023 to December 2023. I take pride our
+            Vice President from May 2023 to December 2023. I take pride in our
             commitment to professional development and community service.
           </p>
           <p className='py-2 text-gray-600'>
